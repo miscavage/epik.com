@@ -1,0 +1,27 @@
+{
+  "name": "epik.com",
+  "version": "0.0.1",
+  "description": "A Node.js wrapper for the Epik.com API.",
+  "main": "index.js",
+  "homepage": "https://github.com/miscavage/epik.com",
+  "author": "Mark Miscavage",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miscavage/epik.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miscavage/epik.com/issues"
+  },
+  "keywords": [
+    "api",
+    "epik",
+    "epik.com",
+    "domains",
+    "api-client",
+    "api-wrapper",
+    "nodejs",
+    "javascript",
+    "npm"
+  ]
+}
