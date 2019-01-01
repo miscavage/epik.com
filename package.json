@@ -23,5 +23,13 @@
     "nodejs",
     "javascript",
     "npm"
-  ]
+  ],
+  "dependencies": {
+    "qs": "^6.6.0",
+    "xml2json": "^0.11.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
 }
