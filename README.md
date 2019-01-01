@@ -60,21 +60,21 @@ EpikClient.signature = EPIK_API_SIGNATURE;
 This module provides helper constants for use in calls.
 
 ___
-#### • `EpikClient.PERIODS`
+#### • `Epik.PERIODS`
 The acceptable time periods for domain registrations.
 
 | Key | Usage | Description |
 | --- | --- | --- |
-`ONE_YEAR` | `EpikClient.PERIODS.ONE_YEAR` | 1 Year
-`TWO_YEARS` | `EpikClient.PERIODS.TWO_YEARS` | 2 Years
-`THREE_YEARS` | `EpikClient.PERIODS.THREE_YEARS` | 3 Years
-`FOUR_YEARS` | `EpikClient.PERIODS.FOUR_YEARS` | 4 Years
-`FIVE_YEARS` | `EpikClient.PERIODS.FIVE_YEARS` | 5 Years
-`SIX_YEARS` | `EpikClient.PERIODS.SIX_YEARS` | 6 Years
-`SEVEN_YEARS` | `EpikClient.PERIODS.SEVEN_YEARS` | 7 Years
-`EIGHT_YEARS` | `EpikClient.PERIODS.EIGHT_YEARS` | 8 Years
-`NINE_YEARS` | `EpikClient.PERIODS.NINE_YEARS` | 9 Years
-`TEN_YEARS` | `EpikClient.PERIODS.TEN_YEARS` | 10 Years
+`ONE_YEAR` | `Epik.PERIODS.ONE_YEAR` | 1 Year
+`TWO_YEARS` | `Epik.PERIODS.TWO_YEARS` | 2 Years
+`THREE_YEARS` | `Epik.PERIODS.THREE_YEARS` | 3 Years
+`FOUR_YEARS` | `Epik.PERIODS.FOUR_YEARS` | 4 Years
+`FIVE_YEARS` | `Epik.PERIODS.FIVE_YEARS` | 5 Years
+`SIX_YEARS` | `Epik.PERIODS.SIX_YEARS` | 6 Years
+`SEVEN_YEARS` | `Epik.PERIODS.SEVEN_YEARS` | 7 Years
+`EIGHT_YEARS` | `Epik.PERIODS.EIGHT_YEARS` | 8 Years
+`NINE_YEARS` | `Epik.PERIODS.NINE_YEARS` | 9 Years
+`TEN_YEARS` | `Epik.PERIODS.TEN_YEARS` | 10 Years
 
 
 ___
@@ -244,11 +244,11 @@ Register a new domain with a given time period.
 Params:
 
 - `domain`: `string` - A single domain
-- `period`: `string|number` - One of EpikClient.PERIODS
+- `period`: `string|number` - One of Epik.PERIODS
              
 Usage Example:
 ```javascript
-let data = await EpikClient.domains.register('giraffecookie.com', EpikClient.PERIODS.ONE_YEAR);
+let data = await EpikClient.domains.register('giraffecookie.com', Epik.PERIODS.ONE_YEAR);
 ```
 
 ___

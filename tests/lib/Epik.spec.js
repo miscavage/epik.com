@@ -92,7 +92,7 @@ describe('Epik', function () {
 
         describe('register', function () {
             beforeEach(function (done) {
-                this.EpikClient.domains.register('giraffecookie.com', EpikClient.PERIODS.ONE_YEAR).then((data) => {
+                this.EpikClient.domains.register('giraffecookie.com', Epik.PERIODS.ONE_YEAR).then((data) => {
                     this.data = data;
                     done();
                 });
