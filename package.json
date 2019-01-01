@@ -1,6 +1,6 @@
 {
   "name": "epik.com",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A Node.js wrapper for the Epik.com API.",
   "main": "index.js",
   "homepage": "https://github.com/miscavage/epik.com",
