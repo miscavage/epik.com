@@ -1,6 +1,8 @@
 # Epik.com API Client for Node.js
 
-A Node.js wrapper for the Epik.com domain registration API.
+A Node.js wrapper for the Epik.com domain registration API v1.
+
+Note: The v1 API this package is using is now deprecated. Epik only issues API keys for their new v2 API.
 
 ## • Installation
 
